@@ -14,7 +14,7 @@ PKI_Project/
 ├── ca.py             # The Big Boss: Generates the Root Cert, signs CSRs, revokes certs.
 ├── ra.py             # The Bouncer: Receives requests, checks identity, passes to CA.
 ├── client.py         # The Citizen: Generates their own keys and asks the RA for a cert.
-│
+├── main.py           # The Rope: Tying everything together  
 └── archive/          # The Vault: Where the CA stores copies of all issued certificates.
 ```
 
